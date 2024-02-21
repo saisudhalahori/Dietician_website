@@ -1,0 +1,43 @@
+
+.subcontainer{
+    display: flex;
+    
+    .image-container{
+        width:50% ;
+
+        img{
+            width: 600px;
+            }
+    }
+
+    .subcontainer-details{
+        width: 50%;
+        flex-direction:row-reverse;
+
+        p,.paragraph {
+            color: rgb(53, 134, 228);
+        }
+        .paragraph2{
+            color: rgb(94, 83, 83);
+        }
+
+        .contagion-container,h1{
+            font-size: 70px;
+            color: rgb(26, 23, 23);
+            font-weight: 600;
+            padding-bottom: 30px;
+        }
+    }
+
+    .sub-heading-container{
+        display: flex;
+        padding-top: 30px;
+    
+        margin-left: 20px;
+
+        ul,li{
+            margin-right: 10px;
+         
+        }
+    }
+}

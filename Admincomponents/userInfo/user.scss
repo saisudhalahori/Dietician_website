@@ -1,0 +1,22 @@
+.cellAction{
+    display: flex;
+
+    .viewButton{
+        // margin: 0px 10px 0px 0px;
+        font-weight: bold;
+        border: 2px dotted rgb(116, 116, 122);
+        background-color: rgb(211, 211, 211);
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    .Button{
+        margin: 0px 5px;
+        cursor: pointer;
+        color: rgb(26, 113, 212);
+        font-weight: bold;
+        padding: 5px 10px;
+        border: 2px dotted rgb(116, 116, 122);
+        background-color: rgb(211, 211, 211);
+        border-radius: 5px;
+    }
+}

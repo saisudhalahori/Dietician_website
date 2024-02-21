@@ -1,0 +1,82 @@
+.main{
+    display: flex;
+  
+  
+  .container-list {
+      /* margin-left: 80px; */
+      color: rgb(53, 46, 46);
+      font-size: 20px;
+      width: 60%;
+     
+      h1 {
+          font-size: 45px;
+          color: rgb(13, 13, 66);
+          margin-left: 2rem;
+          width: 100% ;
+          font-weight: bold;
+        
+      }
+  
+      ul li{
+          line-height: 35px;
+          margin-left: 5rem;
+          list-style: circle;
+          
+       }
+  
+       .Appointment{
+          display: flex;
+          width: 100%;
+          /* justify-content:center ; */
+          padding: 3rem 0rem;
+  
+          .btn{
+              width: 200px;
+              height: 45px;
+              border: none;
+              border-radius: 5px;
+              background-color: rgba(14, 90, 230, 0.842);
+              color: rgb(255, 255, 255);
+              font-size: 18px;
+              font-weight: 400;
+              margin: 0rem 3rem;
+             cursor: pointer;
+             
+          }
+          p {
+              margin: 0rem 1rem;
+              font-size: 25px;
+              color: black;
+              font-weight: 500;
+           }
+  
+           
+      }
+      
+      
+    } 
+    .image-container{
+      width: 60%;
+      // margin-right: 4rem;
+      padding-top: 2rem;
+      
+      
+  
+  
+      img{
+          margin-right: 50px; 
+          margin-top: 2.5rem;
+          justify-content: center;
+          object-fit: cover;
+          transform: scale(1.2);
+           margin-right: 1rem;
+           border-radius: 10px;
+           box-shadow: 0px -9px 149px -10px rgba(0,0,0,0.55);
+     -webkit-box-shadow: 0px -9px 149px -10px rgba(0,0,0,0.55);
+     -moz-box-shadow: 0px -9px 149px -10px rgba(0,0,0,0.55);
+       
+        }
+    
+  }
+  
+  }

@@ -1,0 +1,102 @@
+.singup{
+    background-color: rgba(19, 131, 206, 0.863);
+    font-size: 20px;
+    font-weight:bold;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;    
+    border-radius: 15px;
+    -webkit-box-shadow:12px 14px 10px 10px  rgba(59, 57, 57, 0.555);
+    box-shadow: 0px 14px 10px 10px  rgba(17, 17, 17, 0.60); 
+      .top,
+       .bottom{
+         
+          padding: 20px;
+          margin: 20px;
+          display: flex;
+
+        .left{
+          flex: 1;
+          text-align: center;
+
+          img{
+              width: 100px;
+              height: 100px;
+              border-radius: 50%;
+              object-fit: cover;
+              
+          }
+        }
+        .right{
+          flex: 2;
+
+            form{
+              display: flex;
+              flex-wrap: wrap;
+              gap: 20px;
+              justify-content: space-around;
+              // font-size: 18px;
+              font-weight: 500;
+
+              .formInput{
+                  width: 40%;
+
+                  label{
+                      display: flex;
+                      align-items: center;
+                      gap: 10px;
+                      margin-bottom: 10px;
+                      color: rgb(238, 235, 235);
+                      font-weight: bold;
+
+                      .icon{
+                          cursor: pointer;
+                      }
+                  }
+
+                  input{
+                      width: 100%;
+                      padding: 5px;
+                      border: none;
+                      border-bottom: 1px;
+                      outline: none;
+                      border-radius: 5px;
+                      height: 30px;
+                  }
+              }
+              button{
+                  width: 150px;
+                  padding: 10px;
+                  border-radius: 5px;
+                  border: none;
+                  background-color: rgb(4, 28, 248);
+                  color: white;
+                  cursor: pointer;
+                  margin-top: 10px;
+                  margin-right: -20px;
+                  font-weight: bold;
+                  align-self: flex-end;
+                  display: inline;
+
+                  &:disabled{
+                      background-color: rgba(22, 46, 97, 0.432);
+                      cursor: not-allowed;
+                  }
+              }
+              span{
+                  color: white;
+                  text-align: left;
+                  cursor: pointer;
+                  margin-top: 30px;
+                  text-decoration: underline;
+                  margin-right: 0rem;
+
+                  &:hover{
+                      color: blue;
+                  }
+              }
+            }
+        }
+      }
+  }

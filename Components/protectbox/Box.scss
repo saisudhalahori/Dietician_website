@@ -1,0 +1,31 @@
+.box{
+    width: 250px;
+    height: auto;
+    
+    text-align: center;
+    
+     
+    img{
+        align-items: center;
+        margin: 10px;
+    }
+
+    h3{
+        margin-top: 5px;
+        margin: 10px;
+    }
+    .btn{
+        width: 200px;
+        height: 45px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgba(14, 90, 230, 0.842);
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 400;
+        margin: 1.5rem 2rem;
+       cursor: pointer;
+       
+    }
+
+}

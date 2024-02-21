@@ -1,0 +1,74 @@
+.experience-container{
+    width: 80%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    /* border: 1px solid rgb(107, 106, 106); */
+    border-radius: 10px;
+    box-shadow: 10px 5px 30px 15px rgba(102, 101, 101, 0.2);
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    // padding: 0px 15rem;
+    margin-bottom: 25px;
+    
+     .counter{
+        padding: 4rem 4rem;
+        padding-top: 2rem;
+        padding-bottom: 6rem;
+        height: 50px;
+        align-items: center;
+        // justify-content: center;
+     }
+   
+      .left{
+        
+        align-items: center;
+        
+        text-align: left;
+        
+      }
+      .right{
+        flex: 2;
+      }
+
+       h4{
+        margin-top: 40px;
+        color:  rgb(32, 103, 184);
+        font-size: 13px;
+     
+        margin-left: 65px;
+    }
+
+    h2{
+        margin-top: 20px;
+        font-size: 40px;
+        margin-left: 65px;
+    }
+    p{
+        margin-top: 20px;
+        color: rgb(68, 61, 61);
+        font-size: 15px;
+        margin-left:65px
+    }
+    .contactus{
+        margin-top: 20px;
+        margin-left: 65px;
+        margin-top: 30px;
+        width: 200px;
+        height: 45px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgba(14, 90, 230, 0.842);
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 400;
+        margin: 2rem 3rem;
+    }
+     
+}
+
+
